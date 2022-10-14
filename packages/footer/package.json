@@ -1,5 +1,5 @@
 {
-  "name": "footer",
+  "name": "@dreamtec-ui/footer",
   "version": "0.2.0-alpha.0",
   "main": "dist/index.js",
   "scripts": {

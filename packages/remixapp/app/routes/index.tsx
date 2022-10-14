@@ -1,5 +1,5 @@
-import {Header} from 'header';
-import {Footer} from 'footer';
+import {Header} from '@dreamtec-ui/header';
+import {Footer} from '@dreamtec-ui/footer';
 
 export default function Index() {
     return (

@@ -1,5 +1,5 @@
 {
-  "name": "header",
+  "name": "@dreamtec-ui/header",
   "version": "0.2.0-alpha.0",
   "main": "dist/index.js",
   "scripts": {
