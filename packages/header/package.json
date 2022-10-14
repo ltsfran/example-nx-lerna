@@ -2,11 +2,18 @@
   "name": "@dreamtec-ui/header",
   "version": "0.2.1",
   "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rimraf dist && rollup --config",
     "test": "jest"
   },
   "dependencies": {
+    "@rollup/plugin-commonjs": "23.0.0",
+    "@rollup/plugin-node-resolve": "15.0.0",
     "@testing-library/react": "13.3.0",
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.14",
@@ -14,6 +21,7 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "rollup": "^2.60.2",
+    "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-typescript2": "^0.31.1",
     "ts-jest": "^27.1.1",
     "tslib": "^2.3.1",
