@@ -1051,6 +1051,46 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@dreamtec-ui/footer@*":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@dreamtec-ui/footer/-/footer-0.3.1.tgz#e771f62c4bef7c523a7c20558b544aa0e269e1f2"
+  integrity sha512-Fb8Lpth3D51j9xNWpceLAwPP6eu8isg3sqFtUceUOdFIE4ei5T7rTIKp8YfCrS2gcrEfNu5VBaWF76Kmg7zejw==
+  dependencies:
+    "@rollup/plugin-commonjs" "23.0.0"
+    "@rollup/plugin-node-resolve" "15.0.0"
+    "@testing-library/react" "13.3.0"
+    "@types/jest" "^27.0.3"
+    "@types/react" "^17.0.14"
+    jest "^27.4.3"
+    react "18.1.0"
+    react-dom "18.1.0"
+    rollup "^2.60.2"
+    rollup-plugin-peer-deps-external "2.2.4"
+    rollup-plugin-typescript2 "^0.31.1"
+    ts-jest "^27.1.1"
+    tslib "^2.3.1"
+    typescript "^4.5.2"
+
+"@dreamtec-ui/header@*":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@dreamtec-ui/header/-/header-0.3.0.tgz#af755187a5de058a551acc2f9c744beb977313d0"
+  integrity sha512-Lu5ivYvj42vmaNDS9m6NBFjnI616FR6sLVW3I1Q4NgSsZNz6X93srhs2bToh4hpzwWlG2aHHSEYdPSX1Et01CA==
+  dependencies:
+    "@rollup/plugin-commonjs" "23.0.0"
+    "@rollup/plugin-node-resolve" "15.0.0"
+    "@testing-library/react" "13.3.0"
+    "@types/jest" "^27.0.3"
+    "@types/react" "^17.0.14"
+    jest "^27.4.3"
+    react "18.1.0"
+    react-dom "18.1.0"
+    rollup "^2.60.2"
+    rollup-plugin-peer-deps-external "2.2.4"
+    rollup-plugin-typescript2 "^0.31.1"
+    ts-jest "^27.1.1"
+    tslib "^2.3.1"
+    typescript "^4.5.2"
+
 "@emotion/is-prop-valid@^1.1.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-1.2.0.tgz#7f2d35c97891669f7e276eb71c83376a5dc44c83"

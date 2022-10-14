@@ -1,0 +1,11 @@
+export { CashPaymentCard } from './CashPaymentCard';
+export { VisaCard } from './VisaCard';
+export { MasterCard } from './MasterCard';
+export { Logo } from './Logo';
+export { LinkedinCircle } from './LinkedinCircle';
+export { TiktokCircle } from './TiktokCircle';
+export { YoutubeCircle } from './YoutubeCircle';
+export { InstagramCircle } from './InstagramCircle';
+export { TwitterCircle } from './TwitterCircle';
+export { FacebookCircle } from './FacebookCircle';
+export { Arrow } from './Arrow';
