@@ -1,6 +1,15 @@
 {
   "name": "@dreamtec-ui/header",
   "version": "0.3.0",
+  "description": "A React component that is a base header.",
+  "keywords": [
+    "header",
+    "react",
+    "dreamtec-ui",
+    "component"
+  ],
+  "author": "Luis Tupa <luis.tupa@neoauto.pe>",
+  "homepage": "https://bitbucket.org/neorepo/dreamtec-ui",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -8,29 +17,33 @@
     "dist"
   ],
   "scripts": {
-    "build": "rimraf dist && rollup --config",
-    "test": "jest"
+    "build": "rimraf dist && rollup --config"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/neorepo/dreamtec-ui.git",
+    "directory": "packages/header"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "23.0.0",
     "@rollup/plugin-node-resolve": "15.0.0",
-    "@testing-library/react": "13.3.0",
-    "@types/jest": "^27.0.3",
-    "@types/react": "^17.0.14",
-    "jest": "^27.4.3",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "@types/styled-components": "5.1.26",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "rollup": "^2.60.2",
+    "rollup": "3.1.0",
     "rollup-plugin-peer-deps-external": "2.2.4",
-    "rollup-plugin-typescript2": "^0.31.1",
-    "ts-jest": "^27.1.1",
-    "tslib": "^2.3.1",
-    "typescript": "^4.5.2"
+    "rollup-plugin-typescript2": "0.34.1",
+    "styled-components": "5.3.6",
+    "tslib": "2.4.0",
+    "typescript": "4.8.4"
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
